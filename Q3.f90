@@ -11,7 +11,7 @@ rho=1.
 Tr=1.
 v=sqrt(Tr/rho)
 
-!informa‡äes
+!informaâ€¡Ã¤es
 Nx=100
 Nt=100
 Lx=1
@@ -30,7 +30,7 @@ Y(i,2)=a0*exp(-(((i*Dx-v*Dt/2.)-x0)**2.)/sigma)
 end do
 
 
-!itera‡Æo
+!iteraâ€¡Ã†o
 do j=3, Nt
 do i=2, Nx
 yxx=(Y(i+1, j-1)-2*Y(i, j-1)+Y(i-1, j-1))/(Dx**2)
